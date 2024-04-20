@@ -1,0 +1,20 @@
+// main.scss # manifest file
+
+// 1. Abstract
+@import "abstract/variables.scss";
+
+// 2. Vendors
+
+// 3. Base
+@import "base/reset", "base/typography";
+
+// 4. Layout
+@import "layout/header", "layout/main-home";
+
+// 5. Components
+@import "components/conocenos", "components/hero", "components/navbar",
+  "components/boton";
+
+// 6. Pages
+
+// 7. Themes
